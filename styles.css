@@ -1,0 +1,126 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/vetores-gratis/desenho-de-volta-ao-fundo-da-escola_23-2149464866.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    background-color: rgba(255, 152, 0, 0.8); 
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.about h2 {
+    color: #FF9800;
+    border-bottom: 2px solid #FF9800;
+    padding-bottom: 10px;
+}
+
+.about h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.about p, .about ul {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    padding-left: 20px;
+}
+
+.about ul li {
+    margin-bottom: 10px;
+}
+
+.about ul li strong {
+    color: #FF9800;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.9); 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #FF9800;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.btn {
+    padding: 10px 8px;
+    width: 50px;
+    color: #fff;
+    background-color: #ed9b18;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 1250px;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    background-color: black;
+    transition: background 1s;
+}
+.cabeçalho-link{
+    justify-content: space-evenly;
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+    
+}
+
+.cabeçalho-link a{
+    color: #383137;
+    font-size: 20px;
+}
+
+.cabeçalho-link a:hover{
+    color:  #000000;
+    transition: 0.10s all;
+}
+.cabeçalho-link{
+      
+     padding: 10px 50px ;
+     border-radius: 50px;
+     border: 0;
+     background-color: #ed9b18;
+     box-shadow: #000000 0 0 8px;
+     letter-spacing: 1.5px;
+     width: 60px;
+     margin: 28px;
+     margin-top: 5px;
+     transition: transform 0.3s, box-shadow 0.3s;
+     box-shadow: 0 0 20px rgb(255, 255, 255);
+     cursor: pointer;
+     }

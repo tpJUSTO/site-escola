@@ -1,0 +1,176 @@
+h1{
+    text-align: center;
+    background-color: #FF9800;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #333;
+}
+.farm-caixa{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    
+    border: 2px solid rgba #FF9800(255,152,0);
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputbox{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #000000;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color:#FF9800;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #FF9800;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #FF9800;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: 5px;
+}
+.forget label input{
+    margin-right: 3px;
+}
+.forget label a{
+    color: #FF9800;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+   
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #bb1818;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #dd0000;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #FF9800;
+}
+.custom-email {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.custom-email::placeholder {
+    color: #bbb;
+}
+
+.custom-email:focus {
+    border-bottom-color: #000000;
+}
+.inputbox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputbox input:focus + label,
+.inputbox input:not(:placeholder-shown) + label {
+    top: -20px; /* Move o rótulo para cima */
+    font-size: 0.8em; /* Opcional: ajusta o tamanho do texto do rótulo */
+    color: #999; /* Opcional: ajusta a cor do texto do rótulo */
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #FF9800;
+    font-size: 1em;
+    pointer-events: none;
+    transition: top 0.3s, font-size 0.3s, color 0.3s; /* Adiciona uma transição suave */
+}
+.meu-botao {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 25px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor do mouse */
+}
+
+.meu-botao:hover {
+    background-color: #45a049; /* Altera a cor de fundo ao passar o mouse */
+}
